@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc3c1c46ca04c0f408641286989de3ce, type: 3}
+  m_Name: IronHelmet
+  m_EditorClassIdentifier: 
+  name: Helmet
+  description: Casque en fer
+  visual: {fileID: 21300000, guid: 358541a3db89a6f45956a5d4726d7312, type: 3}
+  prefab: {fileID: 7195526123609065788, guid: ad0bce111cf173f4aa3c6d18f211962d, type: 3}
+  stackable: 0
+  maxStack: 0
+  healthEffect: 0
+  hungerEffect: 0
+  thirstEffect: 0
+  armorPoints: 2
+  itemType: 1
+  equipmentType: 0

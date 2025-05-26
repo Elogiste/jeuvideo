@@ -1,0 +1,90 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Inventory">
+			<method name="CloseInventory"/>
+		</type>
+		<type fullname="ItemActionsSystem">
+			<method name="DestroyActionButton"/>
+			<method name="DropActionButton"/>
+			<method name="EquipActionButton"/>
+			<method name="UseActionButton"/>
+		</type>
+		<type fullname="MainMenu">
+			<method name="ClearSavedData"/>
+			<method name="ClearSavedData"/>
+			<method name="EnableDisableOptionsPanel"/>
+			<method name="EnableDisableOptionsPanel"/>
+			<method name="LoadGameButton"/>
+			<method name="LoadMainMenuButton"/>
+			<method name="LoadMainMenuButton"/>
+			<method name="LoadMainMenuButton"/>
+			<method name="NewGameButton"/>
+			<method name="QuitGameButton"/>
+			<method name="QuitGameButton"/>
+			<method name="RetourMenu3D"/>
+			<method name="RetourMenuPrincipal"/>
+			<method name="SetFullScreen"/>
+			<method name="SetFullScreen"/>
+			<method name="SetResolution"/>
+			<method name="SetResolution"/>
+		</type>
+		<type fullname="MainPrincipal">
+			<method name="Play2D"/>
+			<method name="Play3D"/>
+			<method name="QuitGame"/>
+		</type>
+		<type fullname="Menu">
+			<method name="AfficherInfos"/>
+			<method name="Jouer"/>
+			<method name="MenuPrincipal"/>
+			<method name="Quitter"/>
+		</type>
+		<type fullname="PauseManager">
+			<method name="Jouer3D"/>
+			<method name="RetourMenu"/>
+		</type>
+		<type fullname="Player">
+			<method name="Jump"/>
+			<method name="Move"/>
+		</type>
+		<type fullname="Recipe">
+			<method name="CraftItem"/>
+		</type>
+		<type fullname="SaveSystem">
+			<method name="LoadData"/>
+			<method name="SaveData"/>
+		</type>
+		<type fullname="Slot">
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+			<method name="ClickOnSlot"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>
